@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+}
+
+body * {
+    z-index: 1;
+}
+
+.home-netflix-bg-gradient {
+    background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
+}
+
+.h-calc-7 {
+    height: calc(100% + 7rem);
+}
